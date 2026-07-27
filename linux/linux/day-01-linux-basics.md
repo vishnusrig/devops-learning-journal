@@ -361,6 +361,71 @@ rpm -q httpd
 rpm -e httpd
 ```
 
+## touch command
+
+The `touch` command is used to create empty files or update the timestamp of an existing file.
+
+### Syntax
+```bash
+touch <file-name>
+touch <file1> <file2> <file3>
+touch Msg{1..9}.java
+```
+
+### Examples
+
+#### Create a single empty file
+```bash
+touch demo.txt
+```
+
+#### Check the file
+```bash
+ls -l
+```
+
+#### Example output
+```bash
+-rw-r--r-- 1 user user 0 Jul 27 12:00 demo.txt
+```
+
+#### Run touch again on the same file
+```bash
+touch demo.txt
+```
+
+This does not recreate the file. It only updates the timestamp.
+
+#### Create multiple files at once
+```bash
+touch a.txt b.txt c.txt
+```
+
+#### Create multiple Java files using brace expansion
+```bash
+touch Msg{1..9}.java
+```
+
+This creates:
+
+```bash
+Msg1.java
+Msg2.java
+Msg3.java
+Msg4.java
+Msg5.java
+Msg6.java
+Msg7.java
+Msg8.java
+Msg9.java
+```
+
+### Key points
+- `touch` creates empty files.
+- If the file already exists, `touch` updates the timestamp.
+- `touch` can create multiple files in a single command.
+- Brace expansion like `{1..9}` is handled by the shell.
+
 ## Quick Flow Reminder
 
 ```text
