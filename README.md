@@ -33,7 +33,7 @@ devops-learning-journal/
 ├── README.md
 ├── linux/
 ├── networking/
-├── git-github/
+├── git
 ├── aws/
 ├── docker/
 ├── kubernetes/
