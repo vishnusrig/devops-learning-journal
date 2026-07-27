@@ -11,14 +11,20 @@ This repository documents my day-by-day DevOps learning journey, hands-on practi
 ## Learning Areas
 - Linux
 - Networking
-- Git and GitHub
+- Git 
+- Maven
+- Jenkins
+- GitHub Actions
+- ArgoCD
+- Ansible
+- Helm
 - AWS
 - Docker
 - Kubernetes
 - Terraform
-- CI/CD
 - Monitoring
 - SRE concepts
+- Real time Projects
 - Troubleshooting and incident notes
 
 ## Repository Structure
